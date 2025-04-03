@@ -1,5 +1,5 @@
 runConfig:
-  minInstances: 0
+  minInstances: 1
   maxInstances: 100
   concurrency: 80
   cpu: 1
@@ -7,7 +7,7 @@ runConfig:
 
 env:
   - variable: MESSAGE
-    value: Hello you are on dev!
+    value: Hello you are on Prod!
     availability:
       - BUILD
       - RUNTIME
